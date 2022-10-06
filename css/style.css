@@ -1,0 +1,35 @@
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 7px;
+}
+
+input[type="range"] {
+    width: 100%
+}
+
+input[type="text"] {
+    border-radius: 10px;
+}
+
+body {
+    font-family: 'Comic Neue', cursive;
+    background-image: url('../bg.png');
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.box {
+    padding: 40px;
+    border-radius: 10px;
+    background-color: white !important;
+    -webkit-box-shadow: -1px 8px 15px 8px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: -1px 8px 15px 8px rgba(0, 0, 0, 0.44);
+    box-shadow: -1px 8px 15px 8px rgba(0, 0, 0, 0.44);
+}
